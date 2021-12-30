@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://fivestars-user-db:123456@api-database/fivestars-customer?authSource=admin
+#      host: api-database
+#      port: 27017
+#      database: fivestars-customer
+#      username: fivestars-user-db
+#      password: 123456
+#      authSource: admin
+  devtools:
+    restart:
+      enabled: true

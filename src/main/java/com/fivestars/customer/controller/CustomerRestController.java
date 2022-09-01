@@ -27,10 +27,10 @@ public class CustomerRestController {
         return customerRegister.findAll();
     }
 
-//    @GetMapping("/count")
-//    public long count() {
-//        return customerRegister.count();
-//    }
+    @GetMapping("/count")
+    public long count() {
+        return customerRegister.count();
+    }
 
     @GetMapping(("/{id}"))
     public Optional<Customer> findById(@PathVariable("id") final String id) {

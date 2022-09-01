@@ -36,4 +36,8 @@ public class CustomerRegister {
     public void deleteById(String id) {
         customerRepository.deleteById(id);
     }
+
+    public long count() {
+        return customerRepository.count();
+    }
 }
